@@ -1,0 +1,375 @@
+/*extra small device start*/
+
+@media (max-width:575px) {
+
+    #plan {
+
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    #plan .plan-item {
+
+        padding-bottom: 25px;
+    }
+
+
+
+}
+
+/*extra small device end*/
+
+
+
+/*small device start*/
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+    .navbar .navbar-brand {
+
+        position: static;
+        padding: 0px;
+        top: 0px;
+        transform: skewX(0deg);
+    }
+
+    .navbar .navbar-brand img {
+
+        transform: skewX(0deg)
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        text-align: center;
+    }
+
+    .navbar-toggler {
+
+        border-color: white !important;
+        margin-right: 20px;
+
+    }
+
+    .navbar-toggler span {
+
+        color: white;
+
+    }
+
+
+    #classes {
+
+        padding-top: 40px;
+    }
+
+    #classes .class-menu .nav .nav-item .nav-link {
+
+        width: 252px;
+    }
+
+    #classes .class-content .tab-item ul li {
+
+        width: 245px;
+    }
+
+    #plan {
+
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    #plan .plan-item {
+
+        padding-bottom: 25px;
+    }
+
+    #funfact {
+
+        padding-bottom: 0px;
+    }
+
+    #funfact .funfact-item {
+
+        padding-bottom: 40px;
+    }
+
+    #footer .footer-content .oppening ul li span {
+
+        width: 96px;
+    }
+
+    .testimonial-bg .testi-slider .testi-item .text h3 {
+
+        padding-top: 10px;
+    }
+
+    #team {
+
+        padding: 40px 0px;
+    }
+
+    #team .team-heading .heading {
+
+        padding-bottom: 20px;
+    }
+
+    #team .card {
+
+        margin-top: 30px;
+    }
+
+    .about {
+
+        padding: 40px;
+    }
+
+    .about .about-text p:last-of-type {
+
+        padding-bottom: 20px;
+
+    }
+
+    .testimonial-bg .testi-slider .testi-item .text h3 {
+
+        padding-top: 0px;
+    }
+
+    #banner .banner-slider .banner-item {
+
+        padding-top: 230px;
+    }
+
+
+}
+
+/*small device end*/
+
+
+/*medium device start*/
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+    .navbar .navbar-brand {
+
+        position: static;
+        padding: 0px;
+        top: 0px;
+        transform: skewX(0deg);
+    }
+
+    .navbar .navbar-brand img {
+
+        transform: skewX(0deg)
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        text-align: center;
+    }
+
+    .navbar-toggler {
+
+        border-color: white !important;
+        margin-right: 20px;
+
+    }
+
+    .navbar-toggler span {
+
+        color: white;
+
+    }
+
+    .about {
+
+        padding: 40px;
+    }
+
+    .about .about-text p:last-of-type {
+
+        padding-bottom: 20px;
+
+    }
+
+    #plan .plan-item:last-of-type {
+
+        margin-top: 25px;
+    }
+
+    #plan {
+
+        padding: 40px 0px;
+
+    }
+
+    #funfact {
+
+        padding-bottom: 0px;
+    }
+
+    #funfact .funfact-item {
+
+        padding-bottom: 40px;
+    }
+
+    #classes {
+
+        padding-top: 40px;
+    }
+
+    #classes .class-menu .nav .nav-item .nav-link {
+
+        width: 230px;
+    }
+
+    #classes .class-content .tab-item ul li {
+
+        width: 335px;
+    }
+
+    #classes .class-content .tab-item ul:nth-child(5) {
+
+        margin-right: 5px;
+    }
+
+    #team {
+
+        padding: 40px 0px;
+    }
+
+    #team .team-heading .heading {
+
+        padding-bottom: 20px;
+    }
+
+    #team .card {
+
+        margin-top: 30px;
+    }
+
+    #brand {
+
+        padding: 40px 0px;
+    }
+
+    #footer .footer-content .oppening ul li span {
+
+        width: 135px;
+
+    }
+
+}
+
+
+/*medium device end*/
+
+/*large device start*/
+
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    #banner .banner-slider .bg-1 .banner-text h3::before {
+
+
+        width: 0px;
+        height: 0px;
+    }
+
+    #banner .banner-slider .bg-1 .banner-text h3::after {
+
+
+        width: 0px;
+        height: 0px;
+    }
+
+    #banner .banner-slider .bg-1 .banner-text h1::before {
+
+
+        width: 0px;
+        height: 0px;
+    }
+
+    #banner .banner-slider .bg-1 .banner-text h1::after {
+
+
+        width: 0px;
+        height: 0px;
+    }
+
+    #banner .banner-slider .bg-1 .banner-text p::before {
+
+
+        width: 0px;
+        height: 0px;
+    }
+
+    #banner .banner-slider .bg-1 .banner-text p::after {
+
+
+        width: 0px;
+        height: 0px;
+    }
+    
+    
+    .about{
+        
+        
+        padding: 40px;
+    }
+    
+    .about .about-text p:last-of-type{
+        
+        display: none;
+    }
+    
+    #team{
+        
+        
+        padding: 50px 0px;
+    }
+    
+    #plan{
+        
+        
+        padding: 50px 0px;
+    }
+    
+    #classes{
+        
+        padding-top: 50px;
+        
+    }
+    
+    #classes .class-menu .nav .nav-item .nav-link{
+        
+        
+        width: 155px;
+    }
+    
+    #classes .class-content .tab-item ul li{
+        
+        
+        width: 176px;
+    }
+    
+    #brand{
+        
+        padding: 50px 0px;
+    }
+    
+    #footer .footer-content .oppening ul li span{
+        
+        width: 69px;
+    }
+    
+    #footer .footer-content .contact .socail ul li{
+        
+        margin-right: 7px;
+        
+    }
+
+}
+
+/*large device end*/
