@@ -1644,32 +1644,51 @@ i {
 
 /*scroll-btn css start*/
 
-.scroll-btn{
-    
+
+
+.scroll-btn {
+
+
     position: fixed;
-    right: 30px;
+    right: 25px;
     bottom: 30px;
-    z-index: 9999999999999999999999;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    z-index: 9999999999999;
+    display: none;
+    border-radius: 50%;
+
+}
+
+.scroll-btn:hover{
+    
+    
+    background: #e23e38;
+}
+
+.scroll-btn i {
+
+
     width: 45px;
     height: 45px;
     border: 1px solid #e23e38;
     border-radius: 50%;
     text-align: center;
-    line-height: 43px;
+    line-height: 45px;
     color: #e23e38;
-    font-size: 24px;
-    cursor: pointer;
-    transition: all linear .3s;
-    display: none;
+    font-size: 23px;
+    transition: all linear .5s;
+
+
+}
+
+.scroll-btn:hover i{
+    
+    color:white; 
     
 }
 
-.scroll-btn:hover{
-    
-  
-    background: #e23e38;
-    color: white;
-}
 
 
 /*scroll-btn css end*/
