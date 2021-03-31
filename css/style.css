@@ -1660,6 +1660,7 @@ i {
     font-size: 24px;
     cursor: pointer;
     transition: all linear .3s;
+    display: none;
     
 }
 
