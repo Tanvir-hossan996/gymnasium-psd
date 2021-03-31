@@ -15,7 +15,7 @@ $(document).ready(function () {
             $(".navbar").removeClass("active-nav")
         }
 
-        if (scrolling > 500) {
+        if (scrolling > 550) {
 
             $(".scroll-btn").fadeIn(1000)
 
