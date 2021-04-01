@@ -1,8 +1,8 @@
 /*extra small device start*/
 
 @media (max-width:575.98px) {
-
-    #banner .banner-slider .bg-1 .banner-text h3::before {
+    
+        #banner .banner-slider .bg-1 .banner-text h3::before {
 
 
         width: 0px;
@@ -77,12 +77,12 @@
 
     #classes .class-menu .nav .nav-item .nav-link {
 
-        width: 268px;
+        width: 272px;
     }
 
     #classes .class-content .tab-item ul li {
 
-        width: 258px;
+        width: 262px;
     }
 
     #funfact {
@@ -147,49 +147,49 @@
 
         right: -14px;
     }
-
+    
     #footer .footer-content h2 {
-
+        
         text-align: center;
-
+        
     }
-
-    #footer .footer-content .oppening {
-
+    
+    #footer .footer-content .oppening{
+      
         padding-left: 30%;
-
+      
     }
-
-    #footer .footer-content .oppening h2 {
-
-        padding-left: 0px !important;
+    
+    #footer .footer-content .oppening h2{
+        
+        padding-left: 0px!important;
     }
-
-    #footer .footer-content .contact {
-
-        padding-left: 30%;
-
+    
+    #footer .footer-content .contact{
+        
+     padding-left: 30%;
+        
     }
-
-    #footer .footer-content .twitter {
-
+    
+    #footer .footer-content .twitter{
+        
         width: 78%;
         padding-left: 30%;
     }
-
-    #footer .footer-content .flicker {
-
+    
+    #footer .footer-content .flicker{
+        
         width: 78%;
         padding-left: 30%;
     }
-
-    .about {
-
+    
+    .about{
+        
         padding: 40px 0px;
     }
-
-    .about .about-heading .heading {
-
+    
+    .about .about-heading .heading{
+        
         padding-top: 15px;
     }
 
