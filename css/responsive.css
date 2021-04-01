@@ -1,6 +1,87 @@
 /*extra small device start*/
 
-@media (max-width:575px) {
+@media (max-width:575.98px) {
+
+    .navbar .navbar-brand {
+
+        position: static;
+        padding: 0px;
+        top: 0px;
+        transform: skewX(0deg);
+    }
+
+    .navbar .navbar-brand img {
+
+        transform: skewX(0deg);
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        text-align: center;
+    }
+
+    .navbar-toggler {
+
+        border-color: white !important;
+        margin-right: 20px;
+
+    }
+
+    .navbar-toggler span {
+
+        color: white;
+
+    }
+
+    #classes .class-menu .nav .nav-item .nav-link {
+
+        width: 272px;
+    }
+
+    #classes .class-content .tab-item ul li {
+
+        width: 262px;
+    }
+
+    #funfact {
+
+        padding-bottom: 25px;
+    }
+
+    #funfact .funfact-item {
+
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    #team {
+
+        padding: 40px 0px;
+
+    }
+
+    #team .team-heading .heading {
+
+        padding-bottom: 20px;
+    }
+
+    #team .card {
+
+        margin-top: 30px;
+    }
+
+    .testimonial-bg .testi-slider .testi-item img {
+
+        width: 20% !important;
+
+    }
+
+    .testimonial-bg .testi-slider .testi-item .text {
+
+
+        padding-left: 15px;
+        padding-top: 10px;
+    }
 
     #plan {
 
@@ -13,13 +94,66 @@
         padding-bottom: 25px;
     }
 
+    #brand .slick-prev {
 
+
+        left: -14px;
+    }
+
+    #brand .slick-next {
+
+
+        right: -14px;
+    }
+    
+    #footer .footer-content h2 {
+        
+        text-align: center;
+        
+    }
+    
+    #footer .footer-content .oppening{
+      
+        padding-left: 30%;
+      
+    }
+    
+    #footer .footer-content .oppening h2{
+        
+        padding-left: 0px!important;
+    }
+    
+    #footer .footer-content .contact{
+        
+     padding-left: 30%;
+        
+    }
+    
+    #footer .footer-content .twitter{
+        
+        width: 78%;
+        padding-left: 30%;
+    }
+    
+    #footer .footer-content .flicker{
+        
+        width: 78%;
+        padding-left: 30%;
+    }
+    
+    .about{
+        
+        padding: 40px 0px;
+    }
+    
+    .about .about-heading .heading{
+        
+        padding-top: 15px;
+    }
 
 }
 
 /*extra small device end*/
-
-
 
 /*small device start*/
 
@@ -311,63 +445,63 @@
         width: 0px;
         height: 0px;
     }
-    
-    
-    .about{
-        
-        
+
+
+    .about {
+
+
         padding: 40px;
     }
-    
-    .about .about-text p:last-of-type{
-        
+
+    .about .about-text p:last-of-type {
+
         display: none;
     }
-    
-    #team{
-        
-        
+
+    #team {
+
+
         padding: 50px 0px;
     }
-    
-    #plan{
-        
-        
+
+    #plan {
+
+
         padding: 50px 0px;
     }
-    
-    #classes{
-        
+
+    #classes {
+
         padding-top: 50px;
-        
+
     }
-    
-    #classes .class-menu .nav .nav-item .nav-link{
-        
-        
+
+    #classes .class-menu .nav .nav-item .nav-link {
+
+
         width: 155px;
     }
-    
-    #classes .class-content .tab-item ul li{
-        
-        
+
+    #classes .class-content .tab-item ul li {
+
+
         width: 176px;
     }
-    
-    #brand{
-        
+
+    #brand {
+
         padding: 50px 0px;
     }
-    
-    #footer .footer-content .oppening ul li span{
-        
+
+    #footer .footer-content .oppening ul li span {
+
         width: 69px;
     }
-    
-    #footer .footer-content .contact .socail ul li{
-        
+
+    #footer .footer-content .contact .socail ul li {
+
         margin-right: 7px;
-        
+
     }
 
 }
