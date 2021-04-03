@@ -112,13 +112,13 @@
         margin-top: 30px;
     }
 
-    .testimonial-bg .testi-slider .testi-item img {
+    .testimonial .testi-slider .testi-item img {
 
         width: 20% !important;
 
     }
 
-    .testimonial-bg .testi-slider .testi-item .text {
+    #testimonial .testi-slider .testi-item .text {
 
 
         padding-left: 15px;
@@ -183,12 +183,12 @@
         padding-left: 30%;
     }
     
-    .about{
+    #about{
         
         padding: 40px 0px;
     }
     
-    .about .about-heading .heading{
+    #about .about-heading .heading{
         
         padding-top: 15px;
     }
@@ -275,7 +275,7 @@
         width: 96px;
     }
 
-    .testimonial-bg .testi-slider .testi-item .text h3 {
+    #testimonial .testi-slider .testi-item .text h3 {
 
         padding-top: 10px;
     }
@@ -295,18 +295,18 @@
         margin-top: 30px;
     }
 
-    .about {
+    #about {
 
         padding: 40px;
     }
 
-    .about .about-text p:last-of-type {
+    #about .about-text p:last-of-type {
 
         padding-bottom: 20px;
 
     }
 
-    .testimonial-bg .testi-slider .testi-item .text h3 {
+    #testimonial .testi-slider .testi-item .text h3 {
 
         padding-top: 0px;
     }
@@ -358,7 +358,7 @@
 
     }
 
-    .about {
+    #about {
 
         padding: 40px;
     }
@@ -489,13 +489,13 @@
     }
 
 
-    .about {
+    #about {
 
 
         padding: 40px;
     }
 
-    .about .about-text p:last-of-type {
+    #about .about-text p:last-of-type {
 
         display: none;
     }

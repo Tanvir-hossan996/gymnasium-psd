@@ -877,8 +877,13 @@ i {
 
 }
 
+#testimonial .heading h2{
+    
+    color: white;
+}
 
-.testimonial-bg {
+
+#testimonial {
 
     background: url(../images/testimonial-banner.jpg) no-repeat center / cover;
     padding: 30px 0px 80px 0px;
@@ -889,7 +894,7 @@ i {
 
 
 
-.testimonial-bg::after {
+#testimonial::after {
 
     content: '';
     position: absolute;
@@ -902,7 +907,7 @@ i {
 
 }
 
-.testimonial-bg .slick-dots li button {
+#testimonial .slick-dots li button {
 
     font-size: 0;
     border: none;
@@ -911,7 +916,7 @@ i {
 
 }
 
-.testimonial-bg .slick-dots {
+#testimonial .slick-dots {
 
     position: absolute;
     left: 50%;
@@ -921,7 +926,7 @@ i {
 }
 
 
-.testimonial-bg .slick-dots li {
+#testimonial .slick-dots li {
 
     width: 15px;
     height: 15px;
@@ -934,7 +939,7 @@ i {
 
 }
 
-.testimonial-bg .slick-dots .slick-active {
+#testimonial .slick-dots .slick-active {
 
     background: #e23e38;
     border-color: #e23e38;
@@ -942,14 +947,14 @@ i {
 }
 
 
-.testimonial-bg .testi-slider .testi-item {
+#testimonial .testi-slider .testi-item {
 
     padding-right: 30px;
 
 }
 
 
-.testimonial-bg .testi-slider .testi-item .text h3 {
+#testimonial .testi-slider .testi-item .text h3 {
 
 
     color: white;
@@ -964,7 +969,7 @@ i {
 
 
 
-.testimonial-bg .testi-slider .testi-item .text h4 {
+#testimonial .testi-slider .testi-item .text h4 {
 
 
     color: white;
@@ -975,7 +980,7 @@ i {
 
 }
 
-.testimonial-bg .testi-slider .testi-item .text ul li {
+#testimonial .testi-slider .testi-item .text ul li {
 
     float: left;
     color: #e23e38;
@@ -986,7 +991,7 @@ i {
 
 
 
-.testimonial-bg .testi-slider .testi-item p {
+#testimonial .testi-slider .testi-item p {
 
 
     font-family: var(--opensans);
