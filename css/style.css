@@ -877,13 +877,9 @@ i {
 
 }
 
-#testimonial .heading h2{
-    
-    color: white;
-}
 
 
-#testimonial {
+#testimonial .testimonial-bg {
 
     background: url(../images/testimonial-banner.jpg) no-repeat center / cover;
     padding: 30px 0px 80px 0px;
@@ -894,7 +890,7 @@ i {
 
 
 
-#testimonial::after {
+#testimonial .testimonial-bg::after {
 
     content: '';
     position: absolute;
@@ -907,7 +903,7 @@ i {
 
 }
 
-#testimonial .slick-dots li button {
+#testimonial .testimonial-bg .slick-dots li button {
 
     font-size: 0;
     border: none;
@@ -916,7 +912,7 @@ i {
 
 }
 
-#testimonial .slick-dots {
+#testimonial .testimonial-bg .slick-dots {
 
     position: absolute;
     left: 50%;
@@ -947,14 +943,14 @@ i {
 }
 
 
-#testimonial .testi-slider .testi-item {
+#testimonial .testimonial-bg .testi-slider .testi-item {
 
     padding-right: 30px;
 
 }
 
 
-#testimonial .testi-slider .testi-item .text h3 {
+#testimonial .testimonial-bg .testi-slider .testi-item .text h3 {
 
 
     color: white;
@@ -969,7 +965,7 @@ i {
 
 
 
-#testimonial .testi-slider .testi-item .text h4 {
+#testimonial .testimonial-bg .testi-slider .testi-item .text h4 {
 
 
     color: white;
@@ -980,7 +976,7 @@ i {
 
 }
 
-#testimonial .testi-slider .testi-item .text ul li {
+#testimonial .testimonial-bg .testi-slider .testi-item .text ul li {
 
     float: left;
     color: #e23e38;
@@ -991,7 +987,7 @@ i {
 
 
 
-#testimonial .testi-slider .testi-item p {
+#testimonial .testimonial-bg .testi-slider .testi-item p {
 
 
     font-family: var(--opensans);
