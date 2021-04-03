@@ -151,8 +151,6 @@ i {
 
 .navbar .navbar-nav .nav-item .nav-link {
 
-
-
     color: white;
     text-transform: uppercase;
     font-family: var(--oswald);
@@ -170,7 +168,6 @@ i {
 }
 
 .navbar .navbar-nav .nav-item .nav-link::after {
-
 
     content: '';
     position: absolute;
@@ -196,9 +193,7 @@ i {
 
 .navbar .navbar-nav .nav-item .nav-link:hover::after {
 
-
     height: 100%;
-
 }
 
 
@@ -224,9 +219,7 @@ i {
 
 .navbar .navbar-nav .nav-item .nav-link:hover::before {
 
-
     width: 100%;
-
 }
 
 .navbar .navbar-nav .active .nav-link {
@@ -239,7 +232,6 @@ i {
 
 .navbar .navbar-nav .active .nav-link::after {
 
-
     content: '';
     position: absolute;
     top: 0px;
@@ -248,7 +240,6 @@ i {
     height: 100%;
     background: white;
     z-index: -1;
-
 
 }
 
@@ -264,7 +255,6 @@ i {
     background: #e23e38;
     z-index: 1;
 
-
 }
 
 
@@ -272,19 +262,14 @@ i {
 /*nav-bar css  end*/
 
 
-
 /*banner section start*/
 
 #banner .banner-slider .bg-1 {
 
-
     background: url(../images/banner-img-1.jpg) no-repeat center /cover;
-
-
 }
 
 #banner .banner-slider .bg-2 {
-
 
     background: url(../images/banner-img-2.jpg) no-repeat center /cover;
 
@@ -293,10 +278,7 @@ i {
 
 #banner .banner-slider .bg-3 {
 
-
     background: url(../images/banner-img-3.jpg) no-repeat center /cover;
-
-
 }
 
 
@@ -310,7 +292,6 @@ i {
 }
 
 #banner .banner-slider .banner-item .overlay {
-
 
     position: absolute;
     top: 0px;
@@ -491,7 +472,7 @@ i {
 }
 
 #banner .banner-slider .banner-item .secend {
-
+    transition: all linear .3s;
     -o-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
@@ -550,13 +531,13 @@ i {
 
 /*about section start*/
 
-.about {
+#about {
 
     padding: 80px 0px;
 
 }
 
-.about .about-img {
+#about .about-img {
 
     position: relative;
     overflow: hidden;
@@ -565,7 +546,7 @@ i {
 }
 
 
-.about .about-img .overlay {
+#about .about-img .overlay {
 
     position: absolute;
     width: 100%;
@@ -577,7 +558,7 @@ i {
 
 }
 
-.about .about-img .icon {
+#about .about-img .icon {
 
     position: absolute;
     width: 50px;
@@ -593,7 +574,7 @@ i {
 
 }
 
-.about .about-img .icon i {
+#about .about-img .icon i {
 
     line-height: 50px;
     font-size: 26px;
@@ -602,14 +583,14 @@ i {
 }
 
 
-.about .about-text {
+#about .about-text {
 
     text-align: center;
 
 
 }
 
-.about .about-text p {
+#about .about-text p {
 
 
     color: #777777;
@@ -620,7 +601,7 @@ i {
 
 }
 
-.about .about-text p:first-of-type {
+#about .about-text p:first-of-type {
 
     padding-top: 13px;
     padding-bottom: 15px;
@@ -634,14 +615,14 @@ i {
 /*gallery section start*/
 
 
-.gallery .gallery-heading .heading {
+#gallery .gallery-heading .heading {
 
     padding-bottom: 28px;
 
 }
 
 
-.gallery .gallery-content {
+#gallery .gallery-content {
 
     background: url(../images/gallery-banner.jpg) no-repeat center / cover;
     padding-top: 30px;
@@ -651,7 +632,7 @@ i {
 }
 
 
-.gallery .gallery-content::after {
+#gallery .gallery-content::after {
 
 
     content: '';
@@ -666,7 +647,7 @@ i {
 }
 
 
-.gallery .gallery-content .gallery-item {
+#gallery .gallery-content .gallery-item {
 
     position: relative;
     overflow: hidden;
@@ -675,7 +656,7 @@ i {
 }
 
 
-.gallery .gallery-content .gallery-item .overlay {
+#gallery .gallery-content .gallery-item .overlay {
 
     position: absolute;
     width: 100%;
@@ -693,14 +674,14 @@ i {
 
 }
 
-.gallery .gallery-content .gallery-item:hover .overlay {
+#gallery .gallery-content .gallery-item:hover .overlay {
 
 
     left: 0;
     transform: scale(.93)
 }
 
-.gallery .gallery-content .gallery-item .overlay i {
+#gallery .gallery-content .gallery-item .overlay i {
 
 
     position: absolute;
@@ -1661,9 +1642,9 @@ i {
 
 }
 
-.scroll-btn:hover{
-    
-    
+.scroll-btn:hover {
+
+
     background: #e23e38;
 }
 
@@ -1683,10 +1664,10 @@ i {
 
 }
 
-.scroll-btn:hover i{
-    
-    color:white; 
-    
+.scroll-btn:hover i {
+
+    color: white;
+
 }
 
 
